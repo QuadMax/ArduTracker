@@ -24,9 +24,6 @@ void setup()
 #define lat 0
 #define lon 1
 
-#define odla 110947
-#define odlo 111319
-
 int32_t  GPS_coord[2] = { 0, 0 };
 uint8_t  GPS_numSat;
 uint16_t GPS_altitude;
@@ -65,8 +62,8 @@ void updatepos()
   old_alt = new_alt;
     
   new_lat = (float)(GPS_coord[lat] - GPS_home[lat]);
-  new_lon = (float)(GPS_coord[lon] - GPS_home[lon]) * LonScale*odla;
-  new_alt = (float)(GPS_altitude - home_alt)*odlo;
+  new_lon = (float)(GPS_coord[lon] - GPS_home[lon]) * LonScale;
+  new_alt = (float)(GPS_altitude - home_alt);
 }
   
 float dist;
