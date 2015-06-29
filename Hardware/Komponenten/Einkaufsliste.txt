@@ -1,0 +1,18 @@
+Einkaufsliste:					
+
+- Arduino Pro Mini									
+- Arduino Uno	
+- zwei Servos mit 180°
+- NMEA GPS
+
+Anzahl	Wert			Bauteil			Anmerkungen:
+- 2x 	10kOhm 			Widerstand  		nur wichtig, dass Widerstände >= 10kOhm; möglichst kleine Toleranz wählen!
+- 1x 	22kOhm			Widerstand
+- 1x 	1nf			Kondensator
+- 1x 	100nf 			Kondensator
+
+Zusätzlich wird ein Spannungsteiler benötigt, falls für den Transmitter
+5v Audioeingang zu viel sind. Bitte Spezifikationen lesen und
+ggf. z.B.: hiermit: 
+http://www.sengpielaudio.com/Rechner-spannungsteiler.htm 
+berechnen.
