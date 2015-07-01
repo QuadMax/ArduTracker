@@ -10,6 +10,6 @@ See wiki for further information.
 
 ******
 
-[RoadMap](https://github.com/QuadMax/ArduTracker/wiki/RoadMap) --||-- [Wiki](https://github.com/QuadMax/ArduTracker/wiki)
+[Wiki](https://github.com/QuadMax/ArduTracker/wiki) --||-- [RoadMap](https://github.com/QuadMax/ArduTracker/wiki/RoadMap)
 
 ~work in progress~
