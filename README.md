@@ -6,5 +6,7 @@ Alpha Version should work fine.
 
 
 ******
-To do until Beta release:
-[RoadMap](https://github.com/QuadMax/ArduTracker/wiki/RoadMap) --||-- [Wiki](https://github.com/QuadMax/ArduTracker/wiki) 
+
+[RoadMap](https://github.com/QuadMax/ArduTracker/wiki/RoadMap) --||-- [Wiki](https://github.com/QuadMax/ArduTracker/wiki)
+
+~work in progress~
