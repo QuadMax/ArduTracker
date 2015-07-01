@@ -7,4 +7,4 @@ Alpha Version should work fine.
 
 ******
 To do until Beta release:
-[see RoadMap on Wiki](https://github.com/QuadMax/ArduTracker/wiki/RoadMap) || [Wiki](https://github.com/QuadMax/ArduTracker/wiki)
+[see RoadMap on Wiki](https://github.com/QuadMax/ArduTracker/wiki/RoadMap) --||-- [Wiki](https://github.com/QuadMax/ArduTracker/wiki)
