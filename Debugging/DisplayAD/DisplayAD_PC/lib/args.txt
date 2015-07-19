@@ -1,3 +1,0 @@
-
-DisplayAD_PC
-DisplayAD_PC.jar,core.jar,RXTXcomm.jar,serial.jar
