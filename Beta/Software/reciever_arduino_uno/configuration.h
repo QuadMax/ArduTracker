@@ -2,13 +2,7 @@
 //magnetic sensor configuration
 //---------------------------------------------------------
 
-  // Once you have your heading, you must then add your 
-  //'Declination Angle', which is the 'Error' of the 
-  //magnetic field in your location.
-  // Find yours here: http://www.magnetic-declination.com/
-  // We need radians, so take your Magnatic declination 
-  //and multiply it by (PI/180 )
-  #define declinationAngle 0.02      //round at 3 digits
+  #define compass  1 //if you got NONE, change to 0
  
   
 //---------------------------------------------------------
@@ -19,7 +13,7 @@
 
 
 //---------------------------------------------------------
-//Baudrate to Computer
+//Baudrate to Computer / other Arduino
 //---------------------------------------------------------
 
   #define BAUDRATE 115200

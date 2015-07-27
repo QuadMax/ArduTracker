@@ -6,8 +6,15 @@ void get_heading(){
   }
   else
   {
-    get_heading()
-  }
+    if (compass)
+    {
+      get_heading();
+    }
+    else
+    {
+      heading = 0;
+    }
+  }  
 }
 
 
@@ -35,7 +42,7 @@ void calcangles()
   int16_t pseudoposx = (int)(-sin_heading*(dlat * cos_heading - dlon * sin_heading));
   int16_t pseudoposy = (int)(cos_heading*(dlat*cos_heading - dlon * sin_heading));
  
-   // z value is the same as the target ones, so i leaf it at dalt 
+  // z value is the same as the target ones, so i leaf it at dalt 
  
   // calculating distance from pseudopoint to target and to ground station
   int16_t pseudobottomtobase = (int)(sqrt(pseudoposx*pseudoposx+pseudoposy*pseudoposy));
