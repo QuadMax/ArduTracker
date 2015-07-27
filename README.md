@@ -4,8 +4,7 @@ The ArduTracker is a light weight, easy to build FPV Tracker. It uses the downli
 
 Special thanks to [Cesco1](https://github.com/Cesco1) who made this possible. 
 ******
-Minimal design should work fine.
-See wiki for further information.
+
 
 
 
