@@ -8,11 +8,11 @@ Minimal design should work fine.
 See wiki for further information.
 
 
-******
+
 
 ##[Wiki](https://github.com/QuadMax/ArduTracker/wiki) --||-- [RoadMap](https://github.com/QuadMax/ArduTracker/wiki/RoadMap)
 
-***
+
 ### Milestone [0.1.1]
 * New pcb design with power distribution. 
   Now you could power up three more devices of your ground station with the pcb. Up to 2.5 Amp.
