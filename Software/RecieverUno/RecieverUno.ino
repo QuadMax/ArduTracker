@@ -4,17 +4,6 @@
 unsigned long time,lasttime;
 uint16_t timediff;
 
-void setup() 
-{  
-  pinMode (LED, OUTPUT);  
-  SerialOpen(BAUDRATE);
-  get_heading();
-  initPsk();
-  digitalWrite(LED, 1);
-  time = millis();
-  lasttime = time;
-}
-
 
 
 float LonScale = 1.0;
@@ -37,6 +26,19 @@ int32_t  home[2] = { 0, 0 };
 int16_t  home_alt = 0;
 boolean  home_set = false;
 extern uint16_t servo[2];
+
+void setup() 
+{  
+  pinMode (LED, OUTPUT);  
+  SerialOpen(BAUDRATE);
+  get_heading();
+  initPsk();
+  digitalWrite(LED, 1);
+  time = millis();
+  lasttime = time;
+}
+
+
   
 
 void loop() 

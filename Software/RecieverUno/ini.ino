@@ -1,8 +1,7 @@
 void get_heading(){
   if (SerialAvailable() > 1 )
   {
-    heading = SerialRead();
-    heading += (uint16_t)SerialRead()<<8;
+    heading = (int)SerialRead() * 256 + (int)SerialRead();
   }
   else
   {
