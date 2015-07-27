@@ -1,6 +1,6 @@
 # ArduTracker
 
-This is an Tracker designed for flying fpv by using a downlink over the audio channel.
+The ArduTracker is a light weight, easy to build FPV Tracker. It uses the downlink of the audio channel from the Transmitter as telemetry link. But this project is different from most others. ArduTracker is a continuous 360° degree Tracker with a special hinge. This [Video](https://vimeo.com/3991479) shows it best.
 
 Special thanks to [Cesco1](https://github.com/Cesco1) who made this possible. 
 ******
@@ -10,7 +10,7 @@ See wiki for further information.
 
 ******
 
-##[Wiki](https://github.com/QuadMax/ArduTracker/wiki) --||-- [RoadMap](https://github.com/QuadMax/ArduTracker/wiki/RoadMap) --||--[What is ArduTracker?](https://github.com/QuadMax/ArduTracker/wiki)
+##[Wiki](https://github.com/QuadMax/ArduTracker/wiki) --||-- [RoadMap](https://github.com/QuadMax/ArduTracker/wiki/RoadMap)
 
 ***
 ### Milestone [0.1.1]
