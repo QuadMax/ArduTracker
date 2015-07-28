@@ -4,11 +4,7 @@ The ArduTracker is a light weight, easy to build FPV Tracker. It uses the downli
 
 Special thanks to [Cesco1](https://github.com/Cesco1) who made this possible. 
 ***
-![alt tag](http://fpv-community.de/attachment.php?attachmentid=131949&d=1437577948)
 
-
-
-***
 ##[Wiki](https://github.com/QuadMax/ArduTracker/wiki) --||-- [RoadMap](https://github.com/QuadMax/ArduTracker/wiki/RoadMap)
 
 
