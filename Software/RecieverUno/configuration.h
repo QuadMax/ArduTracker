@@ -2,7 +2,7 @@
 //magnetic sensor configuration
 //---------------------------------------------------------
 
-  #define compass  1 //if you got NONE, change to 0
+  #define compass  1 // if you got NONE, change to 0
  
   
 //---------------------------------------------------------
@@ -23,15 +23,15 @@
 //Debugging mode 
 //---------------------------------------------------------
 
-  //#define TESTRXLEVEL  //only turn on for debugging
+  //#define TESTRXLEVEL  // only turn on for debugging
 
 
 //---------------------------------------------------------
 //Tower servo
 //---------------------------------------------------------
 
-  #define standard    //180 degree 1000us to 2000us
-  //#define extended    //270 degree 500us to 2500us
+  #define standard      // 180 degree 1000us to 2000us
+  //#define extended    // 270 degree 500us to 2500us
 
 
 //#########################################################
@@ -39,7 +39,7 @@
 //#########################################################
 
 
-  #define RX  // TX or RX firmware
+  #define RX
   #define LED 13
   #define lat 0
   #define lon 1

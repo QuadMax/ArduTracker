@@ -1,7 +1,9 @@
 void get_heading(){
   if (SerialAvailable() > 1 )
   {
-    heading = (int)SerialRead() * 256 + (int)SerialRead();
+    byte b1 = SerialRead();
+    byte b2 = SerialRead();
+    int heading = b1 * 256 + b2;
   }
   else
   {
