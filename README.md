@@ -10,7 +10,7 @@ Special thanks to [Cesco1](https://github.com/Cesco1) who made this possible.
 
 ### Milestone [0.1.1]
 * New pcb design with power distribution. 
-  Now you could power up three more devices of your ground station with the pcb. Up to 3 Ampere with 35um copper thickness or 4.5 Ampere with 70um copper thickness.
+  Now you could power up 5 more devices of your ground station with the pcb. Up to 3 Ampere with 35um copper thickness or 4.5 Ampere with 70um copper thickness.
 
 
 ### Milestone [0.1.0]
