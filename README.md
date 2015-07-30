@@ -6,6 +6,7 @@ Special thanks to [Cesco1](https://github.com/Cesco1) who made this possible.
 ***
 
 ##[Wiki](https://github.com/QuadMax/ArduTracker/wiki) --||-- [RoadMap](https://github.com/QuadMax/ArduTracker/wiki/RoadMap)
+***
 
 ###Milestone [0.8.1]
 We are close leaving BETA! Heureka.
