@@ -21,7 +21,7 @@ We are close leaving BETA! Heureka.
 
 ### Milestone [0.1.1]
 * New pcb design with power distribution. 
-  Now you could power up 3 more devices of your ground station with the pcb. Up to 2.5 Ampere. with 35um copper thickness or 4.5 Ampere with 70um copper thickness.
+  Now you could power up 3 more devices of your ground station with the pcb. Up to 2.5 Ampere. with 35um copper thickness.
 
 
 ### Milestone [0.1.0]
