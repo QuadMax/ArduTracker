@@ -10,7 +10,7 @@ Special thanks to [Cesco1](https://github.com/Cesco1) who made this possible.
 
 ###Milestone [0.8.1]
 We are close leaving BETA! Heureka.
-* This is new:
+* **This is new:**
 * The pcb design have been reworked. Now we got a groundstation that could power up 5 more devices. With 35um copper thickness it could bear 3 Ampere or 4.5 Ampere with 70um copper thickness.
 * Furthermore the code got a rework too.
   * implemented cesco1´s PSK modem instead FSK
