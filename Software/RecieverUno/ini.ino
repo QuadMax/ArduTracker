@@ -52,20 +52,20 @@ void calcangles()
 
    // calculating angels for servos now
 
-   angleaz = 90 - atan(dalt/(pseudobottomtobase))* 57.296;
-   anglel = atan(pseudototarget/pseudotobase) * 57.296;
+   angleaz = 90 - atan(dalt/(pseudobottomtobase))* 57.296;    // tower servo
+   anglel = atan(pseudototarget/pseudotobase) * 57.296;       // arm servo 
  
    // checking if the servos turn the right way
-   if (dlat > (tan(heading)*dlon)) {
-    }
-     else {
-       anglel = anglel * (-1);
-     }
-   if (dlat > (-1/tan(heading)*dlon)) {
-    }
-     else {
-       angleaz = angleaz * (-1);
-    } 
+  GPS_heading = (int16_t)(atan2(dlat,dlon) * 57.29578f + 270);
+  if(GPS_heading > 360) GPS_heading -=360;
+
+  diff_heading = GPS_heading - heading;
+
+  if( diff_heading > 90 && diff_heading < 270 ) angleaz = angleaz *(-1);
+  if( diff_heading > 180 ) anglel = anglel *(-1);
+
+  if (tower_inv) angleaz = angleaz * (-1);
+  if (arm_inv) anglel = anglel * (-1);
 }
 
 
@@ -74,3 +74,10 @@ void angletoservo()
   servo[0] = center + (int)(angleaz * az_fact);
   servo[1] = center + (int)(anglel * el_fact);
 }
+
+void invert_servo_jumper()
+{
+  if(tower == HIGH) tower_inv = true;
+  if(arm ==HIGH) arm_inv = true;
+}
+

@@ -2,7 +2,7 @@
 //magnetic sensor configuration
 //---------------------------------------------------------
 
-  #define compass  1 // if you got NONE, change to 0
+  #define compass  0 // if you got NONE, change to 0
  
   
 //---------------------------------------------------------
@@ -40,9 +40,12 @@
 
 
   #define RX
-  #define LED 13
+  //#define LED 13
   #define lat 0
   #define lon 1
+
+  #define tower 13
+  #define arm 12
 
   
   #if defined (standard)
@@ -52,7 +55,7 @@
   #endif
 
   #if defined (extended)
-    #define az_fact 2.777
-    #define el_fact 5.555
+    #define el_fact 2.777
+    #define az_fact 5.555
     #define center 1500
   #endif

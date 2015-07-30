@@ -16,6 +16,8 @@ int16_t dlat;
 int16_t dlon;
 int16_t dalt;
 int16_t heading;
+int16_t GPS_heading;
+int16_t diff_heading;
 
 int32_t  GPS_coord[2] = { 0, 0 };
 uint8_t  GPS_numSat;
@@ -25,17 +27,21 @@ uint16_t GPS_speed;
 int32_t  home[2] = { 0, 0 };
 int16_t  home_alt = 0;
 boolean  home_set = false;
+boolean tower_inv = false;
+boolean arm_inv = false;
 extern uint16_t servo[2];
 
 void setup() 
 {  
-  pinMode (LED, OUTPUT);  
+  pinMode(tower, INPUT);
+  pinMode(arm, INPUT);  
   SerialOpen(BAUDRATE);
   get_heading();
   initPsk();
-  digitalWrite(LED, 1);
   time = millis();
   lasttime = time;
+
+  invert_servo_jumper();
 }
 
 
@@ -47,7 +53,6 @@ void loop()
   
     if (receiveLTM())
     {
-    digitalWrite(LED, 1);
       if (!home_set)
       {
         if (GPS_numSat >= 6)
@@ -72,7 +77,6 @@ void loop()
     
   if (time - lasttime >= 1050) 
   {
-    digitalWrite(LED, 0);
     lasttime = time;
   }
   
