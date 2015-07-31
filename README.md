@@ -8,6 +8,13 @@ Special thanks to [Cesco1](https://github.com/Cesco1) who made this possible.
 ##[Wiki](https://github.com/QuadMax/ArduTracker/wiki) --||-- [RoadMap](https://github.com/QuadMax/ArduTracker/wiki/RoadMap)
 ***
 
+###Milestone [0.9.0]
+Today the compass could be implemented. This take us a step closer to a stable Version that has got all features.
+The system´s components could be tested succesfully each by their own.
+A whole system test comes soon.
+* **This is new:**
+ * implemented compass
+
 ###Milestone [0.8.1]
 We are close leaving BETA! Heureka.
 * **This is new:**
