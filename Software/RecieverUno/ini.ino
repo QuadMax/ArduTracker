@@ -1,9 +1,10 @@
 void get_heading(){
-  if (SerialAvailable() > 1 )
+  if (SerialAvailable() > 2 )
   {
-    byte b1 = SerialRead();
-    byte b2 = SerialRead();
-    int heading = b1 * 256 + b2;
+    byte test   = SerialRead(); 
+    byte LByte  = SerialRead();
+    byte HByte  = SerialRead();
+    uint16_t heading = ((HByte << 8 ) | LByte);
   }
   else
   {

@@ -9,7 +9,7 @@
   // We need radians, so take your Magnatic declination 
   // and multiply it by (PI/180 )
   
-  #define declinationAngle 0.02      //round at 3 digits
+  #define declinationAngle 0.022      //round at 4 digits
 
 
 //---------------------------------------------------------
@@ -23,7 +23,7 @@
 
 
 //---------------------------------------------------------
-//Baudrate to Computer
+//Baudrate to Computer / other Arduino
 //---------------------------------------------------------
 
   #define BAUDRATE 115200
